@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Taps Lampung</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    body {
+   font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #1e1e1e, #2d2d2d);
+      color: #ddd;
+    }
+
+    .navbar {
+      background-color: #121212;
+    }
+
+    
+
+    .hero-about {
+      background: url('tapis.png') center center/cover no-repeat;
+      height: 60vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-about::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(3px);
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero-content h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.5rem;
+      background: linear-gradient(45deg, #ffffff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+
+    .glass-section {
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+      border-radius: 1rem;
+      padding: 40px;
+      color: #ddd;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    }
+
+    .glass-section h2 {
+      font-family: 'Pacifico', cursive;
+      background: linear-gradient(45deg, #6a05a9, #9003d1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(121, 18, 150, 0.6);
+    }
+
+    footer {
+      background-color: #121212;
+      color: #aaa;
+      padding: 20px 0;
+    }
+
+.neon-title {
+  background: linear-gradient(45deg, #b75cf0, #ae00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(213, 60, 255, 0.938);
+}
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Taps Lampung</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-about">
+  <div class="hero-content">
+    <h1>About Taps Lampung</h1>
+    <p class="fs-5 mt-3">Celebrating the artistry of heritage.</p>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="py-5">
+  <div class="container">
+    <div class="glass-section mx-auto" style="max-width: 1000px;">
+      <h2 class="mb-4 text-center">Our Story</h2>
+      <p class="fs-5">
+        Taps Lampung was founded with a passionate vision: to preserve and elevate the traditional art of Tapis weaving, a treasured cultural heritage of Lampung, Indonesia. Through the years, we’ve dedicated ourselves to reviving age-old techniques, collaborating with skilled artisans, and infusing modern aesthetics into traditional designs.
+      </p>
+      <p class="fs-5">
+        Every piece in our gallery embodies a story — motifs of nature, ancient symbolism, and the vibrant spirit of Lampung’s people. From ceremonial garments to contemporary accessories, we believe Tapis is not merely a fabric, but a canvas of cultural expression and identity.
+      </p>
+      <p class="fs-5">
+        At Taps Lampung, we celebrate craftsmanship, sustainability, and artistry. We invite you to explore our collection, connect with our artisans, and become part of a movement to keep this magnificent tradition alive.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- TEAM SECTION -->
+ 
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 neon-title">🎓 Our Project Team</h2>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Team Member Card -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body text-center">
+            <h5 class="fw-bold">Muhammad Darell Daffa Fawwaz F.</h5>
+            <p class="text-muted mb-2 neon-title">24220199</p>
+            <p>Oversaw the entire project direction, ensured milestone targets were met, and handled communication between team members and faculty advisors.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member Card -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body text-center">
+            <h5 class="fw-bold">Muhammad Nabil Rahmadin</h5>
+            <p class="text-muted mb-2 neon-title">24220204</p>
+            <p>Handled the website coding structure, built the modal and gallery layout, and optimized the UI for seamless user experience across devices.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member Card -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body text-center">
+            <h5 class="fw-bold">Sheka Acmelia</h5>
+            <p class="text-muted mb-2 neon-title">24220217</p>
+            <p>Crafted engaging product descriptions, curated cultural narratives about Tapis Lampung, and designed creative writing for the website sections.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member Card -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body text-center">
+            <h5 class="fw-bold">Tiara Rahma Fadilah</h5>
+            <p class="text-muted mb-2 neon-title">24220219</p>
+            <p>Managed graphic asset preparation, photo editing for product images, and contributed to the color scheme and aesthetic design decisions for the project.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member Card -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body text-center">
+            <h5 class="fw-bold">Dinda Tri Suci Ramadhanti</h5>
+            <p class="text-muted mb-2 neon-title">24220190</p>
+            <p>Conducted research on Lampung’s cultural heritage, sourced reference materials for product details, and assisted in writing content for the About and Feature sections.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Taps Lampung. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
